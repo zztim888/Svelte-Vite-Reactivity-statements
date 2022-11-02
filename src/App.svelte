@@ -10,8 +10,11 @@
     count += 1;
   }
 </script>
+
 <h1>reactivity/ statements</h1>
+
 <button on:click={handleClick}>
 count {count} {count === 1 ? 'time':'times'}
 </button>
+
 <p>click more than 9x to see what happens</p>
